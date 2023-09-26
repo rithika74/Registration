@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>STUDENT REGISTRATION FORM</h1><br>
+    <form action="">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Full Name">
+       
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+       
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" >
+       
+        <label for="cntct">Contact Number:</label>
+        <input type="number" id="cntct" name="cntct" placeholder="Phone Number">
+        
+        <div class="radio-group">
+            <label for="gender">Gender</label><br><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="others" name="gender" value="others">
+            <label for="others">Others</label>
+        </div>
+
+        <label for="address">Address:</label>
+        <textarea name="address" id="address" cols="15" rows="5"></textarea>
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="#">-Select-</option>
+            <option value="Kollam">Kollam</option>
+            <option value="Kozhikkode">Kozhikkode</option>
+            <option value="Malappuram">Malappuram</option>
+            <option value="Kannur">Kannur</option>
+        </select>
+
+        <label for="counrty">Country:</label>
+        <select id="country" name="country">
+            <option value="#">-Select-</option>
+            <option value="India">India</option>
+            <option value="Srilanka">Srilanka</option>
+            <option value="Pakistan">Pakistan</option>
+        </select>
+
+        <label for="pin">Pincode:</label>
+        <input type="number" id="pin" name="pin" placeholder="Pincode">
+
+        <label for="course">Course:</label>
+        <input type="text" id="bcom" name="course"">
+    
+        <h3>Qualifications</h3>
+        <table>
+            <tr>
+                <th>SL no.</th>
+                <th>Qualifications</th>
+                <th>Institution</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Class 10</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class +2</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>UG</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>PG</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+        </table>
+
+        <br>
+        <div>
+            <button class="inline-btn">Submit</button>
+            <button class="inline-btn">Reset</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
